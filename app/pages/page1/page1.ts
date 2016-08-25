@@ -1,7 +1,8 @@
 import {Component} from '@angular/core';
 // import {bootstrap} from '@angular/platform-browser-dynamic';
 import 'rxjs/Rx'
-import {BackandService} from '../../services/backandService'
+import {BackandService} from '../../services/backandService',
+providers: [BackandService]
 
 @Component({
     templateUrl: 'build/pages/page1/page1.html'
